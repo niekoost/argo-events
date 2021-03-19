@@ -17,7 +17,7 @@
 
         kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install.yaml
         # Install with a validating admission controller
-        kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install-validating-webhook.yaml
+        kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-events/master/manifests/install-validating-webhook.yaml
 
 
        NOTE: 
